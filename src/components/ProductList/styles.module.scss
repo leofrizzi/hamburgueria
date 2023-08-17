@@ -1,0 +1,13 @@
+.Ul {
+    display: flex;
+    gap: 1.375rem;
+    padding: 1rem;
+    max-width: 1024px;
+    width: 100%;
+    overflow-y: hidden;
+
+    @media (min-width:1024px) {
+        flex-wrap: wrap;
+        overflow-x: hidden;
+    }
+}
